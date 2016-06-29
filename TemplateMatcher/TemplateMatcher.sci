@@ -18,6 +18,9 @@ function new_image = TemplateMatcher(image, template_image, varargin)
 // T = Igray(20:75, 90:135);
 // J = TemplateImage(I, T);
 // imshow(J);
+//
+// Authors
+// Suraj Prakash
 
 
 		[ lhs rhs ] = argn(0)

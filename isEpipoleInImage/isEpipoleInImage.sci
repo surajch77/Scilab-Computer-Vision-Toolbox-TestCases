@@ -19,6 +19,9 @@ function [isepi, varargout ] = isEpipoleInImage(fundamental_matrix, imagesize)
 // imageSize = [200 300]
 // isepi = isEpipoleInImage(F, imagesize)
 // [isepi, epipole] = isEpipoleInImage(F, imagesize)
+//
+// Authors
+// Suraj Prakash
 	
 	[ lhs, rhs ] = argn(0)
 	
